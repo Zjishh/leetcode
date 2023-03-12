@@ -26,6 +26,8 @@ public class maximumWealth {
             System.out.println();
             sum = 0;
 
+
+
             for (int j = 0; j < maximumWealth[i].length; j++) {
 
                 sum += maximumWealth[i][j];
