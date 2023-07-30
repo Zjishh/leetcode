@@ -81,7 +81,7 @@ public class T7 {
                 int fangxiang = (direction+4) % 4;
                 System.out.println("方向" + fangxiang);
                 if (fangxiang == 1 || fangxiang == -1) {
-                    int zjh = 0;
+                    int zjh = 00000;
                     for (int p = 0; p < obstacles.length; p++) {
                         if (obstacles[p][0] == x && obstacles[p][1] > y && y + commands[i] >= obstacles[p][1]) {
                             y = obstacles[p][1] - 1;
